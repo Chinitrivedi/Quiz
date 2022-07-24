@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: azure;
+    background-image: linear-gradient(340deg, beige 0%, lightblue 100%);
+    font-family: 'M PLUS 1p', sans-serif;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz-container{
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px darkred(100, 100, 100, 0.2);
+    width:615px ;
+    overflow: hidden;
+}
+
+.quiz-header{
+    padding: 4rem;
+
+}
+h2{
+    padding:1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: rgb(9, 104, 114);
+    color: rgb(0, 0, 0);
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: 'M PLUS 1p', sans-serif;
+    padding: 1.4rem;
+}
+button:hover{
+    background-color: rgb(173, 97, 101);
+}
+
+button:focus{
+    outline: none;
+    background-color: rgb(108, 125, 12);
+}
